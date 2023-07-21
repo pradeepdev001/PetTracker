@@ -62,10 +62,10 @@
             <div class="col-8 main-wrapper <?= $row['gender'] == 'Boy' ? 'male-gender' : 'female-gender' ?>">
 
             	<div class="language-wrapper text-end" style="position: absolute;top: 0;right: 10px">
-		            <!-- <a href="http://localhost/demos/bytetag/?code=<?=$_GET['code']?>&lang=en">English</a>,  -->
-		            <!-- <a href="http://localhost/demos/bytetag/?code=<?=$_GET['code']?>&lang=de">German</a> -->
+		            <!-- <a href="http://203.190.154.50:8886/?code=<?=$_GET['code']?>&lang=en">English</a>,  -->
+		            <!-- <a href="http://203.190.154.50:8886/?code=<?=$_GET['code']?>&lang=de">German</a> -->
 		            <div class="form-check form-switch">
-					  	<input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" <?= @$_GET['lang'] == 'de' ? 'checked' : '' ?> onchange="changeLangFun(this, 'http://localhost/demos/bytetag/?code=<?=$_GET['code']?>&lang=de', 'http://localhost/demos/bytetag/?code=<?=$_GET['code']?>')">
+					  	<input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" <?= @$_GET['lang'] == 'de' ? 'checked' : '' ?> onchange="changeLangFun(this, 'http://203.190.154.50:8886/?code=<?=$_GET['code']?>&lang=de', 'http://203.190.154.50:8886/?code=<?=$_GET['code']?>')">
 					  	<label class="form-check-label text-white" for="flexSwitchCheckDefault">German</label>
 					</div>
 		        </div>
