@@ -59,9 +59,9 @@
     <div class="container-fluid">
 
         <div class="row justify-content-center">
-            <div class="col-8 main-wrapper <?= $row['gender'] == 'Boy' ? 'male-gender' : 'female-gender' ?>">
+            <div class="col-12 col-sm-8 main-wrapper <?= $row['gender'] == 'Boy' ? 'male-gender' : 'female-gender' ?>">
 
-            	<div class="language-wrapper text-end" style="position: absolute;top: 0;right: 10px">
+            	<div class="language-wrapper text-end" style="position: absolute;top: 10px;right: 10px">
 		            <!-- <a href="http://203.190.154.50:8886/?code=<?=$_GET['code']?>&lang=en">English</a>,  -->
 		            <!-- <a href="http://203.190.154.50:8886/?code=<?=$_GET['code']?>&lang=de">German</a> -->
 		            <div class="form-check form-switch">
@@ -207,7 +207,7 @@
 
     <!-- lost Modal -->
     <div class="modal" id="infoModal" tabindex="-1">
-        <div class="modal-dialog  modal-dialog-centered w-300" style="width: 300px;">
+        <div class="modal-dialog  modal-dialog-centered w-300">
             <div class="modal-content" style="box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 10px 0px;border: none;">
                 
                 <div class="modal-body">
