@@ -63,10 +63,10 @@
             <div class="col-12 col-sm-8 main-wrapper <?= $row['gender'] == 'Boy' ? 'male-gender' : 'female-gender' ?>">
 
             	<div class="language-wrapper text-end" style="position: absolute;top: 10px;right: 10px">
-		            <!-- <a href="http://localhost/kays/demos/webs/PetTracker/?code=<?=$_GET['code']?>&lang=en">English</a>,  -->
-		            <!-- <a href="http://localhost/kays/demos/webs/PetTracker/?code=<?=$_GET['code']?>&lang=de">German</a> -->
+		            <!-- <a href="http://203.190.154.50:8886?code=<?=$_GET['code']?>&lang=en">English</a>,  -->
+		            <!-- <a href="http://203.190.154.50:8886?code=<?=$_GET['code']?>&lang=de">German</a> -->
 		            <div class="form-check form-switch">
-					  	<input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" <?= @$_GET['lang'] == 'de' ? 'checked' : '' ?> onchange="changeLangFun(this, 'http://localhost/kays/demos/webs/PetTracker/?code=<?=$_GET['code']?>&lang=de', 'http://localhost/kays/demos/webs/PetTracker/?code=<?=$_GET['code']?>')">
+					  	<input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" <?= @$_GET['lang'] == 'de' ? 'checked' : '' ?> onchange="changeLangFun(this, 'http://203.190.154.50:8886?code=<?=$_GET['code']?>&lang=de', 'http://203.190.154.50:8886?code=<?=$_GET['code']?>')">
 					  	<label class="form-check-label text-white" for="flexSwitchCheckDefault">German</label>
 					</div>
 		        </div>
@@ -133,7 +133,7 @@
                                 </div>
                             </div>
                             <div class=" bcIbVr">
-                                <a href="tel:372123456789">
+                                <a href="tel:<?= $row['dadContact'] ?? '' ?>">
                                     <div class=" jaLoMA">
                                         <span style="box-sizing: border-box; display: inline-block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;">
                                             <span style="box-sizing: border-box; display: block; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"><img alt="" aria-hidden="true" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+" style="display: block; max-width: 100%; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"></span><img src="./assets/images/_icons_phone.svg" style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;">
@@ -141,7 +141,7 @@
                                         </span>
                                     </div>
                                 </a>
-                                <a href="sms:372123456789">
+                                <a href="sms:<?= $row['dadContact'] ?? '' ?>">
                                     <div class=" dxOVlS">
                                         <span style="box-sizing: border-box; display: inline-block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;">
                                             <span style="box-sizing: border-box; display: block; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"><img alt="" aria-hidden="true" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+" style="display: block; max-width: 100%; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"></span><img src="./assets/images/_icons_sms.svg" style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;">
