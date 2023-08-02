@@ -99,7 +99,7 @@
                             </div>
                         </div>
                         <div class="lofuQh gPqnEq">
-                            <h4 class=" jMZBZt"><?= $row['age'] ?? '' ?> <?= convertLang('years')?></h4>
+                            <h4 class=" jMZBZt"><?= $row['age'] ?? '' ?> <?= convertLang('Years')?></h4>
                             <p class="jrRPfz"><?= convertLang('Age') ?></p>
                             <div class=" oajYe">
                                 <span style="box-sizing: border-box; display: inline-block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;">
@@ -109,7 +109,7 @@
                             </div>
                         </div>
                         <div class=" lofuQh cFjzLi">
-                            <h4 class=" jMZBZt"><?= $row['weight'] ?? '' ?> <?= convertLang('kgs')?></h4>
+                            <h4 class=" jMZBZt"><?= $row['weight'] ?? '' ?> <?= convertLang('Kgs')?></h4>
                             <p class="jrRPfz"><?= convertLang('Weight')?></p>
                             <div class=" oajYe">
                                 <span style="box-sizing: border-box; display: inline-block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;">
@@ -229,7 +229,7 @@
 
     <!-- Share Location Modal -->
     <div class="modal" id="shareLocationModal" tabindex="-1">
-        <div class="modal-dialog  modal-dialog-centered w-300" style="width: 300px;">
+        <div class="modal-dialog  modal-dialog-centered w-300">
             <div class="modal-content" style="box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 10px 0px;border: none;">
                 
                 <div class="modal-body">
@@ -237,7 +237,7 @@
                         <h2 class="styles__Title-sc-1bpwf9i-2 lacDY"><?= convertLang("Location sharing")?></h2>
                         <div class="styles__DialogCardTextContainer-sc-1bpwf9i-5 hrRmZB">
                             <p class="styles__DialogCardText-sc-1bpwf9i-6 gGdDYU"><?= convertLang("Your current GPS location will be sent to pet's owners. pet's owners will only be able to see your location at the time of sending (your location is not actively tracked).")?></p>
-                            <p class="styles__DialogCardText-sc-1bpwf9i-6 gGdDYU"><?= convertLang("A notification will be displayed asking for permission to access your location. Please click the “Allow” button.")?></p>
+                            <p class="styles__DialogCardText-sc-1bpwf9i-6 gGdDYU"><?= convertLang("A notification will be displayed asking for permission to access your location. Please click the 'Allow' button.")?></p>
                         </div>
                         <button class="styles__StyledButton-sc-y8ytmq-0 hEAXFb styles__ActionButton-sc-1bpwf9i-3 jJDVNj shareLocationBtnPress"><?= convertLang("I understand")?></button>
                         <button class="styles__StyledButton-sc-y8ytmq-0 cCcOYK styles__CancelButton-sc-1bpwf9i-4 ggENcN"  data-bs-dismiss="modal"><?= convertLang("Cancel")?></button>
