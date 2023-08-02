@@ -169,11 +169,11 @@
                             <div class=" esysDn">
                             	<button class=" gNDZhF"><?= convertLang('Copy')?></button>
                             	<a href="<?=$row['dadLocation']?>" target="_blank">
-                            		<button class="petStyles__OpenButton-sc-14n8dp6-36 gwiWmf"><?= convertLang('Open Owner Location in maps')?></button>
+                            		<button class="petStyles__OpenButton-sc-14n8dp6-36 gwiWmf"><?= convertLang('Open Owner Location')?></button>
                             	</a>
 
                                 <a href="javascript:void(0)" onclick="openMapMyLocation()">
-                                    <button class="petStyles__OpenButton-sc-14n8dp6-36 gwiWmf mt-2"><?= convertLang('Open My Location in maps')?></button>
+                                    <button class="petStyles__OpenButton-sc-14n8dp6-36 gwiWmf mt-2"><?= convertLang('Open My Location')?></button>
                                 </a>
 
                             </div>
