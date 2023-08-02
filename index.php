@@ -52,7 +52,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <link href="https://allfont.net/allfont.css?fonts=nunito-bold" rel="stylesheet" type="text/css" />
     <link href="https://allfont.net/allfont.css?fonts=nunito-regular" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="./assets/css/custom.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/custom.css?v=1.1">
 </head>
 <body>
 
