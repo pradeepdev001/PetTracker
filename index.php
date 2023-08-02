@@ -216,7 +216,7 @@
                         <h2 class="styles__Title-sc-1bpwf9i-2 lacDY"><?= convertLang("This pet may be lost!")?></h2>
                         <div class="styles__DialogCardTextContainer-sc-1bpwf9i-5 hrRmZB">
                             <p class="styles__DialogCardText-sc-1bpwf9i-6 gGdDYU"> <?= convertLang("We'd like to send your current location to pet's owners. They will only be able to see your location at the time of sending (your location is not actively tracked).")?></p>
-                            <p class="styles__DialogCardText-sc-1bpwf9i-6 gGdDYU"><?= convertLang("A notification will be displayed asking for permission to access your location. Please click the “Allow” button.")?></p>
+                            <p class="styles__DialogCardText-sc-1bpwf9i-6 gGdDYU"><?= convertLang("A notification will be displayed asking for permission to access your location. Please click the 'Allow' button.")?></p>
                         </div>
                         <button class="styles__StyledButton-sc-y8ytmq-0 hEAXFb styles__ActionButton-sc-1bpwf9i-3 jJDVNj shareLocationBtnPress"><?= convertLang("Okay")?></button>
                         <button class="styles__StyledButton-sc-y8ytmq-0 cCcOYK styles__CancelButton-sc-1bpwf9i-4 ggENcN"  data-bs-dismiss="modal"><?= convertLang("Ignore")?></button>
