@@ -63,10 +63,10 @@
             <div class="col-12 col-sm-8 main-wrapper <?= $row['gender'] == 'Boy' ? 'male-gender' : 'female-gender' ?>">
 
             	<div class="language-wrapper text-end" style="position: absolute;top: 10px;right: 10px">
-		            <!-- <a href="http://203.190.154.50:8886/?code=<?=$_GET['code']?>&lang=en">English</a>,  -->
-		            <!-- <a href="http://203.190.154.50:8886/?code=<?=$_GET['code']?>&lang=de">German</a> -->
+		            <!-- <a href="http://localhost/kays/demos/webs/PetTracker/?code=<?=$_GET['code']?>&lang=en">English</a>,  -->
+		            <!-- <a href="http://localhost/kays/demos/webs/PetTracker/?code=<?=$_GET['code']?>&lang=de">German</a> -->
 		            <div class="form-check form-switch">
-					  	<input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" <?= @$_GET['lang'] == 'de' ? 'checked' : '' ?> onchange="changeLangFun(this, 'http://203.190.154.50:8886/?code=<?=$_GET['code']?>&lang=de', 'http://203.190.154.50:8886/?code=<?=$_GET['code']?>')">
+					  	<input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" <?= @$_GET['lang'] == 'de' ? 'checked' : '' ?> onchange="changeLangFun(this, 'http://localhost/kays/demos/webs/PetTracker/?code=<?=$_GET['code']?>&lang=de', 'http://localhost/kays/demos/webs/PetTracker/?code=<?=$_GET['code']?>')">
 					  	<label class="form-check-label text-white" for="flexSwitchCheckDefault">German</label>
 					</div>
 		        </div>
@@ -99,7 +99,7 @@
                             </div>
                         </div>
                         <div class="lofuQh gPqnEq">
-                            <h4 class=" jMZBZt"><?= $row['age'] ?? '' ?> years</h4>
+                            <h4 class=" jMZBZt"><?= $row['age'] ?? '' ?> <?= convertLang('years')?></h4>
                             <p class="jrRPfz"><?= convertLang('Age') ?></p>
                             <div class=" oajYe">
                                 <span style="box-sizing: border-box; display: inline-block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;">
@@ -109,7 +109,7 @@
                             </div>
                         </div>
                         <div class=" lofuQh cFjzLi">
-                            <h4 class=" jMZBZt"><?= $row['weight'] ?? '' ?> kg</h4>
+                            <h4 class=" jMZBZt"><?= $row['weight'] ?? '' ?> <?= convertLang('kgs')?></h4>
                             <p class="jrRPfz"><?= convertLang('Weight')?></p>
                             <div class=" oajYe">
                                 <span style="box-sizing: border-box; display: inline-block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;">
@@ -123,7 +123,7 @@
                         <div class="bSZUNo">
                             <div class=" iBXziQ">
                                 <div class=" gdWVnL">
-                                    <h1 class=" dyIyZn">D</h1>
+                                    <h1 class=" dyIyZn"><?= substr($row['dadName'], 0, 1) ?></h1>
                                 </div>
                                 <div class=" ipVQdd">
                                     <div class=" ipVQdd">
