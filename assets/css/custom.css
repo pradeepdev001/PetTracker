@@ -262,7 +262,7 @@ p, label {
     align-items: flex-start;
     justify-content: center;
 }
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 900px) {
     .wVmJT {
         align-items: unset;
         justify-content: unset;
