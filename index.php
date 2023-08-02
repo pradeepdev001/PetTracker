@@ -99,7 +99,7 @@
                             </div>
                         </div>
                         <div class="lofuQh gPqnEq">
-                            <h4 class=" jMZBZt"><?= $row['age'] ?? '' ?> <?= convertLang('years')?></h4>
+                            <h4 class=" jMZBZt"><?= $row['age'] ?? '' ?> <?= convertLang('Years')?></h4>
                             <p class="jrRPfz"><?= convertLang('Age') ?></p>
                             <div class=" oajYe">
                                 <span style="box-sizing: border-box; display: inline-block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;">
@@ -109,7 +109,7 @@
                             </div>
                         </div>
                         <div class=" lofuQh cFjzLi">
-                            <h4 class=" jMZBZt"><?= $row['weight'] ?? '' ?> <?= convertLang('kgs')?></h4>
+                            <h4 class=" jMZBZt"><?= $row['weight'] ?? '' ?> <?= convertLang('Kgs')?></h4>
                             <p class="jrRPfz"><?= convertLang('Weight')?></p>
                             <div class=" oajYe">
                                 <span style="box-sizing: border-box; display: inline-block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;">

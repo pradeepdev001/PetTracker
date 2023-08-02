@@ -35,7 +35,7 @@ $LANGUAGES['de'] = [
     "Your current GPS location will be sent to pet's owners. pet's owners will only be able to see your location at the time of sending (your location is not actively tracked)." => "Ihr aktueller GPS-Standort wird an die Besitzer des Haustiers gesendet. Die Besitzer des Haustiers können Ihren Standort nur zum Zeitpunkt des Sendens sehen (Ihr Standort wird nicht aktiv verfolgt).",
     'Okay' => 'Okay',
     'Ignore' => 'Ignorieren',
-    'kgs' => 'kg',
-    'years' => 'Jahre'
+    'Kgs' => 'Kg',
+    'Years' => 'Jahre'
 ];
 
