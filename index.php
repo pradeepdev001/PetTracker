@@ -1,7 +1,7 @@
 <?php 
     
     require 'inc/data.php';
-    require 'inc/language.php';
+    require 'inc/language.php'; 
 
     $row = [];
     $lang = [];
